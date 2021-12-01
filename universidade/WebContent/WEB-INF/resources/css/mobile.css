@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/03/2021, 20:53:02
+    Author     : ivo
+*/
+.container{
+    width: 96%;
+}
+
+header h1{
+    text-align: center;
+}
+header h1 img{
+    max-width: 50%;
+}
+
+/* mobile first*/
+@media(min-width: 480px){
+    header h1{
+        margin: 5px 0;
+    }
+}
+@media(min-width: 720px){
+    header h1{
+        text-align: center;
+    }
+}
